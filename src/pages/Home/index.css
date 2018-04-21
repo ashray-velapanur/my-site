@@ -1,0 +1,12 @@
+.section-container-outer {
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.section-container-inner {
+  margin: 100px 48px 100px 48px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
