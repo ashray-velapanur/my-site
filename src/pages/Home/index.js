@@ -86,7 +86,7 @@ class Work extends React.Component {
 class Showcase extends React.Component {
   render() {
     return (
-      <div style={{padding: '10px'}}>
+      <div style={{margin: '12px'}}>
         <div style={this.props.style}>
         </div>
       </div>
@@ -103,12 +103,12 @@ function WorkSection() {
       </div>
       <div style={{display: 'flex', justifyContent: 'center', margin: '60px 0 0 0', flexWrap: 'wrap'}}>
         <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
-          <Showcase style={{width: '460px', height: '300px', backgroundColor: 'red'}} />
-          <Showcase style={{width: '460px', height: '420px', backgroundColor: 'blue'}} />
+          <Showcase style={{width: '300px', height: '300px', backgroundColor: 'red'}} />
+          <Showcase style={{width: '300px', height: '420px', backgroundColor: 'blue'}} />
         </div>
         <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
-          <Showcase style={{width: '460px', height: '420px', backgroundColor: 'green'}} />
-          <Showcase style={{width: '460px', height: '360px', backgroundColor: 'yellow'}} />
+          <Showcase style={{width: '300px', height: '420px', backgroundColor: 'green'}} />
+          <Showcase style={{width: '300px', height: '360px', backgroundColor: 'yellow'}} />
         </div>
       </div>
     </div>
@@ -226,6 +226,7 @@ function Home() {
       <WrappedServicesSection id='services-section' style={{backgroundColor: '#fff'}}/>
       <WrappedDownloadSection id='download-section' style={{backgroundColor: '#fafafa'}}/>
       <WrappedContactSection id='contact-section' style={{backgroundColor: '#fff'}}/>
+      <WrappedWorkSection id='work-section' style={{backgroundColor: '#fafafa'}}/>
       <Footer />
     </div>
   );
