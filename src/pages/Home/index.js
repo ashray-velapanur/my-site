@@ -56,7 +56,7 @@ function ExpertiseSection() {
         <Typography variant='headline' align='center' gutterBottom>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt.</Typography>
         <Typography variant='subheading' align='center' color='textSecondary' gutterBottom>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
       </div>
-      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', padding: '5% 0 0 0'}}>
+      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', margin: '60px 0 0 0'}}>
         <Skill icon='comment' />
         <Skill icon='comment' />
         <Skill icon='comment' />
@@ -101,7 +101,7 @@ function WorkSection() {
         <Typography variant='headline' align='center' gutterBottom>Work</Typography>
         <Typography variant='subheading' align='center' color='textSecondary' gutterBottom>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
       </div>
-      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', padding: '5% 0 0 0'}}>
+      <div style={{display: 'flex', justifyContent: 'center', margin: '60px 0 0 0', flexWrap: 'wrap'}}>
         <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
           <Showcase style={{width: '460px', height: '300px', backgroundColor: 'red'}} />
           <Showcase style={{width: '460px', height: '420px', backgroundColor: 'blue'}} />
@@ -138,7 +138,7 @@ function ContactSection() {
           <Typography variant='headline' align='center' gutterBottom>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt.</Typography>
           <Typography variant='subheading' align='center' color='textSecondary' gutterBottom>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
         </div>
-        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '5% 0 0 0'}}>
+        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', margin: '60px 0 0 0'}}>
           <TextField
             label='Email'
             margin='normal'
@@ -203,7 +203,7 @@ function ServicesSection() {
         <Typography variant='headline' align='center' gutterBottom>Lorem ipsum dolor sit amet, consectetur elit.</Typography>
         <Typography variant='subheading' align='center' color='textSecondary' gutterBottom>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
       </div>
-      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', padding: '5% 0 0 0'}}>
+      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', margin: '60px 0 0 0'}}>
         <Service image='archive' title={'Title'} backgroundColor='#1976d2' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
         <Service image='beer' title={'Title'} backgroundColor='#5e35b1' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
         <Service image='comments' title={'Title'} backgroundColor='#004ba0' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
@@ -223,7 +223,7 @@ function Home() {
     <div>
       <Navbar />
       <WrappedLandingSection style={{height: '100vh', backgroundColor: '#5e35b1'}}/>
-      <WrappedServicesSection id='services-section' style={{backgroundColor: '#fff'}} />
+      <WrappedServicesSection id='services-section' style={{backgroundColor: '#fff'}}/>
       <WrappedDownloadSection id='download-section' style={{backgroundColor: '#fafafa'}}/>
       <WrappedContactSection id='contact-section' style={{backgroundColor: '#fff'}}/>
       <Footer />
