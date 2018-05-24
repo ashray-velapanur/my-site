@@ -22,6 +22,35 @@ import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import IconButton from 'material-ui/IconButton';
 
+import { createMuiTheme } from 'material-ui/styles';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      light: '#9162e4',
+      main: '#5e35b1',
+      dark: '#280680',
+      contrastText: '#ffffff',
+    },
+    secondary: {
+      light: '#ff5c8d',
+      main: '#d81b60',
+      dark: '#a00037',
+      contrastText: '#ffffff',
+    },
+  },
+  typography: {
+    fontSize: 16,
+    headline: {
+      color: 'rgba(0, 0, 0, 0.7)',
+    },
+    title: {
+      color: 'rgba(0, 0, 0, 0.7)',
+      fontSize: 20,
+    }
+  },
+});
 
 class Service extends React.Component {
   render() {
@@ -221,13 +250,15 @@ const WrappedContactSection = sectionWrapper(ContactSection);
 function Home() {
   return (
     <div>
-      <Navbar />
-      <WrappedLandingSection style={{height: '100vh', backgroundColor: '#5e35b1'}}/>
-      <WrappedServicesSection id='services-section' style={{backgroundColor: '#fff'}}/>
-      <WrappedDownloadSection id='download-section' style={{backgroundColor: '#fafafa'}}/>
-      <WrappedContactSection id='contact-section' style={{backgroundColor: '#fff'}}/>
-      <WrappedWorkSection id='work-section' style={{backgroundColor: '#fafafa'}}/>
-      <Footer />
+      <MuiThemeProvider theme={theme}>
+        <Navbar />
+        <WrappedLandingSection style={{height: '100vh', backgroundColor: '#5e35b1'}}/>
+        <WrappedServicesSection id='services-section' style={{backgroundColor: '#fff'}}/>
+        <WrappedDownloadSection id='download-section' style={{backgroundColor: '#fafafa'}}/>
+        <WrappedContactSection id='contact-section' style={{backgroundColor: '#fff'}}/>
+        <WrappedWorkSection id='work-section' style={{backgroundColor: '#fafafa'}}/>
+        <Footer />
+      </MuiThemeProvider>
     </div>
   );
 }
