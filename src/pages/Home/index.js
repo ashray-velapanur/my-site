@@ -68,37 +68,6 @@ class Service extends React.Component {
   }
 }
 
-class Skill extends React.Component {
-  render() {
-    return (
-      <div style={{width: '200px', height: '160px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-        <FontAwesome name={this.props.icon} size='5x'/>
-      </div>
-    )
-  }
-}
-
-function ExpertiseSection() {
-  return (
-    <div>
-      <div>
-        <Typography variant='headline' align='center' gutterBottom>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt.</Typography>
-        <Typography variant='subheading' align='center' color='textSecondary' gutterBottom>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
-      </div>
-      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', margin: '60px 0 0 0'}}>
-        <Skill icon='comment' />
-        <Skill icon='comment' />
-        <Skill icon='comment' />
-        <Skill icon='comment' />
-        <Skill icon='comment' />
-        <Skill icon='comment' />
-        <Skill icon='comment' />
-        <Skill icon='comment' />
-      </div>
-    </div>
-  )
-}
-
 class Work extends React.Component {
   render() {
     return (
@@ -158,7 +127,6 @@ function DownloadSection() {
       </div>
     );
 }
-
 
 function ContactSection() {
     return (
@@ -262,6 +230,5 @@ function Home() {
     </div>
   );
 }
-
 
 export default Home;
