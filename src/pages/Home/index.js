@@ -5,22 +5,11 @@ import './index.css';
 
 import FontAwesome from 'react-fontawesome';
 
-import pythonLogo from './assets/python-logo.png'
-import htmlLogo from './assets/html-logo.png'
-import reactLogo from './assets/react-logo.png'
-import cssLogo from './assets/css-logo.png'
-import jsLogo from './assets/js-logo.png'
-import djangoLogo from './assets/django-logo.png'
-import bootstrapLogo from './assets/bootstrap-logo.png'
-
-import Paper from 'material-ui/Paper';
-import Grid from 'material-ui/Grid';
 import TextField from 'material-ui/TextField';
 import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
-import IconButton from 'material-ui/IconButton';
 
 import { createMuiTheme } from 'material-ui/styles';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
