@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import FeatureBox from '../../components/FeatureBox/index.js'
 
-import FontAwesome from 'react-fontawesome';
+import Icon from '@material-ui/core/Icon';
 
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
@@ -92,8 +92,8 @@ function DownloadSection() {
       <div>
         <Typography variant='subheading' align='center' gutterBottom>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</Typography>
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-          <FontAwesome name='apple' size='3x' style={{padding: '12px'}}/>
-          <FontAwesome name='android' size='3x' style={{padding: '12px'}}/>
+          <Icon style={{fontSize: '40px', margin: '4px'}}>pie_chart</Icon>
+          <Icon style={{fontSize: '40px', margin: '4px'}}>pie_chart</Icon>
         </div>
         <div style={{display: 'flex', justifyContent: 'center'}}>
           <Button variant='raised' color='primary' style={{width: '200px', height: '60px', marginTop: '24px'}}>Download</Button>
@@ -133,7 +133,7 @@ function Navbar() {
       <div>
         <AppBar position='static' color='primary' style={{boxShadow: 'none'}}>
           <Toolbar>
-            <FontAwesome name='adn' size='2x'/>
+            <Icon style={{fontSize: '40px'}}>adb</Icon>
             <Button color="inherit" href='#services-section'>Section A</Button>
             <Button color="inherit" href='#contact-section'>Section B</Button>
           </Toolbar>

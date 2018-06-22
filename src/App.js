@@ -6,6 +6,7 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 import { default as Home } from './pages/Home/index';
+import { default as ParallaxDemo } from './pages/ParallaxDemo/index';
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <CssBaseline />
         <BrowserRouter>
           <Switch>
+            <Route path='/parallax-demo' component={ParallaxDemo}/>
             <Route path='/' component={Home}/>
           </Switch>
         </BrowserRouter>
