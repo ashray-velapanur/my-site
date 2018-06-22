@@ -176,7 +176,7 @@ function ServicesSection() {
       </div>
       <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', margin: '60px 0 0 0'}}>
         <FeatureBox image='archive' title={'Title'} backgroundColor='#1976d2' textColor='#ffffff' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
-        <FeatureBox image='beer' title={'Title'} backgroundColor='#5e35b1' textColor='#ffffff' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
+        <FeatureBox image='public' title={'Title'} backgroundColor='#5e35b1' textColor='#ffffff' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
         <FeatureBox image='comments' title={'Title'} backgroundColor='#004ba0' textColor='#ffffff' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
       </div>
     </div>
