@@ -6,14 +6,14 @@ import FeatureBox from '../../components/FeatureBox/index.js'
 
 import FontAwesome from 'react-fontawesome';
 
-import TextField from 'material-ui/TextField';
-import Button from 'material-ui/Button';
-import Typography from 'material-ui/Typography';
-import AppBar from 'material-ui/AppBar';
-import Toolbar from 'material-ui/Toolbar';
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
 
-import { createMuiTheme } from 'material-ui/styles';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import { createMuiTheme } from '@material-ui/core/styles';
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 
 const theme = createMuiTheme({
   palette: {

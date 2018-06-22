@@ -3,7 +3,7 @@ import React from 'react';
 import './index.css';
 
 import FontAwesome from 'react-fontawesome';
-import Typography from 'material-ui/Typography';
+import Typography from '@material-ui/core/Typography';
 
 class FeatureBox extends React.Component {
   render() {
