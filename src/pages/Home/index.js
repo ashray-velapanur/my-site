@@ -175,9 +175,9 @@ function ServicesSection() {
         <Typography variant='subheading' align='center' color='textSecondary' gutterBottom>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
       </div>
       <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', margin: '60px 0 0 0'}}>
-        <FeatureBox image='archive' title={'Title'} backgroundColor='#1976d2' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
-        <FeatureBox image='beer' title={'Title'} backgroundColor='#5e35b1' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
-        <FeatureBox image='comments' title={'Title'} backgroundColor='#004ba0' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
+        <FeatureBox image='archive' title={'Title'} backgroundColor='#1976d2' textColor='#ffffff' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
+        <FeatureBox image='beer' title={'Title'} backgroundColor='#5e35b1' textColor='#ffffff' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
+        <FeatureBox image='comments' title={'Title'} backgroundColor='#004ba0' textColor='#ffffff' description={'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
       </div>
     </div>
   )

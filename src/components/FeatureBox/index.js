@@ -10,11 +10,11 @@ class FeatureBox extends React.Component {
     return (
       <div style={{backgroundColor: this.props.backgroundColor, width: '280px', height: '320px', marginBottom: '24px', borderRadius: '16px'}}>
         <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', padding: '0 5% 0 5%'}}>
-          <div style={{height: '160px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#ffffff'}}>
+          <div style={{height: '160px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: this.props.textColor}}>
             <FontAwesome name={this.props.image} size='5x'/>
           </div>
-          <Typography variant='title' align='center' style={{color: '#ffffff'}} gutterBottom>{this.props.title}</Typography>
-          <Typography variant='body1' align='center' style={{color: '#ffffff'}} gutterBottom>{this.props.description}</Typography>
+          <Typography variant='title' align='center' style={{color: this.props.textColor}} gutterBottom>{this.props.title}</Typography>
+          <Typography variant='body1' align='center' style={{color: this.props.textColor}} gutterBottom>{this.props.description}</Typography>
         </div>
       </div>
     )
