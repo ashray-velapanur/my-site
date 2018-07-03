@@ -7,7 +7,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 
 import { default as Home } from './pages/Home/index';
 import { default as ParallaxDemo } from './pages/ParallaxDemo/index';
-
+import { default as Oztinate } from './pages/Oztinate/index';
 
 class App extends Component {
   render() {
@@ -17,6 +17,7 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route path='/parallax-demo' component={ParallaxDemo}/>
+            <Route path='/oztinate' component={Oztinate}/>
             <Route path='/' component={Home}/>
           </Switch>
         </BrowserRouter>
