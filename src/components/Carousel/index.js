@@ -14,7 +14,7 @@ const Arrow = ({icon, clickFunction}) => (
 const Indicators = ({slides, currentIndex}) => (
     <div style={{display: 'flex', justifyContent: 'center'}}>
       {slides.map((slide, index) =>
-        index == currentIndex
+        index === currentIndex
         ? <Icon>radio_button_checked</Icon>
         : <Icon>radio_button_unchecked</Icon>
       )}

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import './index.css';
 
@@ -140,7 +139,6 @@ function FeaturesSection() {
   )
 }
 
-const WrappedLandingSection = sectionWrapper(LandingSection);
 const WrappedFeaturesSection = sectionWrapper(FeaturesSection);
 const WrappedDownloadSection = sectionWrapper(DownloadSection);
 const WrappedContactSection = sectionWrapper(ContactSection);
